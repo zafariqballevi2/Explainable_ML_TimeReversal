@@ -13,7 +13,7 @@
 
 ### Description of Arguments:
 
-  ```bash
+ > **_NOTE:_**  The note content.
   --fold_v: Number of fold
   --daata: Pass the data in the shape of:  (Subjects, components, time points)
   --encoder: Model used for training (rnm: The proposed model, cnn: wholeMILC)
@@ -25,4 +25,4 @@
   --samples: Number of subjects
   --l_ptr: T (with pretraining), F (w/o pretraining)
   --attr_alg: Attribution Algorithm (IG : Integrated Gradients, GS : Gradient SHAP)
-```
+
