@@ -6,8 +6,9 @@ For Pretraining, run the following command:
 
 
 For downstream training, run the follwoing command:
+  ```bash
   python -m Main_downstreamtraining --fold_v 0 --daata chirp1 --encoder rnm --seeds 1 --ws 140 --nw 1 --wsize 140 --convsize 2400 --epp 2 --tp 140 --samples 311 --l_ptr T --attr_alg IG
-
+```
 
 Description of Parameters:
 
